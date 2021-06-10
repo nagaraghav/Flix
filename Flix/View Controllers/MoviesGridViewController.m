@@ -75,8 +75,7 @@
     UICollectionViewCell *tappedCell = sender;
     NSIndexPath *indexpath = [self.collectionView indexPathForCell:tappedCell];
     NSDictionary *movie = self.filteredMovies[indexpath.item];
-//    ActionDetailsViewController *detailsViewController = [segue destinationViewController];
-//    detailsViewController.movie = movie;
+
     
     NSLog(@"Tapping on a movie!");
 }

@@ -66,11 +66,9 @@
            }
            else {
                NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-//               NSLog(@"%@", dataDictionary);
+
                self.movies = dataDictionary[@"results"];
-//               for (NSDictionary *movie in self.movies) {
-//                   NSLog(@"%@", movie[@"title"]);
-//               }
+
                [self.tableView reloadData];
                [self.activityIndicator stopAnimating];
 
@@ -105,7 +103,7 @@
     NSURLRequest *requestSmall = [NSURLRequest requestWithURL:urlSmall];
     NSURLRequest *requestLarge = [NSURLRequest requestWithURL:urlLarge];
     
-//    __weak MoviesViewController *weakSelf = self;
+
 
     [cell.posterView setImageWithURLRequest:requestSmall
                           placeholderImage:nil

@@ -71,14 +71,10 @@
                                                         }];
                                    }
                                    failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
-                                       // do something for the failure condition
-                                       // possibly try to get the large image
+                                       
                                    }];
     
     
-    
-//    NSURL *backdropURL = [NSURL URLWithString:fullBackdropURL];
-//    [self.backdropView setImageWithURL:backdropURL];
     
     self.titleLabel.text = self.movie[@"title"];
     self.synopsisLabel.text = self.movie[@"overview"];
@@ -104,9 +100,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     NSNumber *movieID = self.movie[@"id"];
-//    TrailerViewController *trailerViewController = [segue destinationViewController];
-//    trailerViewController.movieID = movieID;
-    // Pass the selected object to the new view controller.
+
 }
 
 @end
