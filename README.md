@@ -35,7 +35,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
  
-<img src="https://media.giphy.com/media/TtGfyuuLGFxbJ8TCJe/giphy.gif" width="232" height="480" frameBorder="0" class="giphy-embed" allowFullScreen>
+<img src="https://media.giphy.com/media/qNqljrxaaXRz57m5qU/giphy.gif" width="232" height="480" frameBorder="0" class="giphy-embed" allowFullScreen>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
